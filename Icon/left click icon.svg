@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6cec0;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        filter: url(#iconfinder_UI_Essentials_button_circle_round_arrow_next_6646422);
+      }
+    </style>
+    <filter id="iconfinder_UI_Essentials_button_circle_round_arrow_next_6646422" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="iconfinder_UI_Essentials_button_circle_round_arrow_next_6646422-2" data-name="iconfinder_UI_Essentials_button_circle_round_arrow_next_6646422" class="cls-1" d="M18,2A16,16,0,1,1,2,18,16.047,16.047,0,0,1,18,2ZM14.686,18.8l4.8,4.8a1.1,1.1,0,0,0,1.6,0,1.1,1.1,0,0,0,0-1.6l-4-4,4-4a1.131,1.131,0,1,0-1.6-1.6l-4.8,4.8A1.1,1.1,0,0,0,14.686,18.8Z" transform="translate(7 4)"/>
+  </g>
+</svg>

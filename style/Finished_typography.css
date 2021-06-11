@@ -1,0 +1,320 @@
+/*header_typography*/
+header img {
+    position: absolute;
+    display: flex;
+    width: 2%;
+    height: 15%;
+    right: 2%;
+    top: 13%;
+}
+
+header img:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+
+header h1 {
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    font-size: 60px;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+
+/*section_typography*/
+.shipping_code .delivery {
+    position: absolute;
+    width: 7%;
+    margin: 0%;
+    padding: 0%;
+    height: 13%;
+    left: 42%;
+    top: 33%;
+    display: flex;
+}
+
+.shipping_code p {
+    position: absolute;
+    left: 40%;
+    top: 14%;
+    font-size: 30px;
+    display: flex;
+}
+
+.shipping_code ul {
+    position: absolute;
+    left: 52%;
+    top: 36%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline 2px black;
+}
+
+.INFO .detail {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    left: 42%;
+    top: 33%;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.INFO .detail li{
+    position: relative;
+    margin-left: -61%;
+}
+
+
+.INFO .bill {
+    position: absolute;
+    display: flex;
+    left: 7%;
+    top: 50%;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.INFO .bill2 {
+    position: absolute;
+    display: flex;
+    left: 43%;
+    top: 50%;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.INFO .time {
+    position: absolute;
+    display: flex;
+    left: 84%;
+    top: 50%;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*footer_typography*/
+.copyright {
+    position: absolute;
+    width: 69%;
+    height: 26%;
+    left: 19%;
+    bottom: -6%;
+}
+
+
+/* information */
+.info .Q {
+    position: absolute;
+    width: 22%;
+    top: 4.5%;
+    left: 49%;
+    margin: 2% 0%;
+    padding: 0%;
+    display: flex;
+    font-size: 17px;
+    color: crimson;
+    font-family: 'Merienda', cursive;
+}
+
+.info .call {
+    position: absolute;
+    top: 17.4%;
+    left: 47%;
+    margin: 2% 0%;
+    padding: 0%;
+    display: flex;
+    font-size: 17px;
+}
+
+.info .email {
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    margin: 2% 0%;
+    padding: 0%;
+    display: flex;
+    font-size: 17px;
+}
+
+.info .NUM {
+    position: absolute;
+    top: 17.3%;
+    left: 48.5%;
+    margin: 2% 0%;
+    padding: 0%;
+    display: flex;
+    font-size: 17px;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+.info .INFO {
+    position: absolute;
+    top: 31.8%;
+    left: 46.5%;
+    margin: 2% 0%;
+    padding: 0%;
+    display: flex;
+    font-size: 17px;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+
+/*make sure*/
+
+.make_sure {
+    position: absolute;
+    width: 80%;
+    height: 18%;
+    margin: 1% 10%;
+    padding: 0% 0%;
+    display: flex;
+    top: 45%;
+    background-color: #D1CDB5;
+}
+
+.product2 .more1 {
+    position: absolute;
+    width: 26%;
+    height: 80%;
+    margin: 0%;
+    padding: 0%;
+    left: 7%;
+    top: 8%;
+    display: flex;
+}
+
+.product2 .container {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 3%;
+    top: 45%;
+    display: flex;
+}
+
+
+.product2 h2 {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 40%;
+    top: 9%;
+    display: flex;
+    font-size: 35px;
+    width: 60%;
+    text-decoration: underline 2px black;
+}
+
+
+.product2 p {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 40%;
+    top: 44%;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+.product2 .delect:hover{
+    transform: scale(1.1);
+}
+
+.product2 .money {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 86%;
+    top: 45%;
+    display: flex;
+    font-size: 41px;
+    font-family: 'Indie Flower', cursive;
+    color: #2f1a08;
+}
+
+section .quality {
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 67%;
+    top: 45%;
+    display: flex;
+    font-size: 19px;
+    width: 65px;
+    height: 40px;
+    border-radius: 14px;
+}
+
+section .numbers {
+    position: absolute;
+    width: 3%;
+    height: 32%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    top: 38%;
+    left: 67%;
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+.col button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(136, 122, 119);
+    font-family: 'Merienda', cursive;
+}
+
+
+.col .back {
+    width: 19%;
+    position: absolute;
+    display: flex;
+    left: 42%;
+    padding: 1.8% 3.7%;
+    top: 87%;
+    height: 5%;
+    font-size: 25px;
+}
+
+
+.col  button:nth-of-type(2){
+    background-color: rgb(202, 139, 84);
+}
+
+.col button:hover{
+    box-shadow: 0px 5px 5px 5px rgb(163, 162, 161);
+}

@@ -1,0 +1,1011 @@
+
+body {
+    width: 100vw;
+    display: block;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li,h1{
+    margin: 0;
+    padding: 0;
+} 
+
+
+/*-end */
+
+header{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    background-image : linear-gradient(#000000, #5f5b5b);
+    display: flex;
+}
+
+.LOGO{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+
+nav li{
+    float:left;
+    display: inline;
+}
+
+.navbar li{
+    float:left;
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.navbar{
+    position: absolute;
+    width: 50%;
+    left: 58%;
+    bottom: 2px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+
+.navbar li a{
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    transform: scale(1.2);
+    background-color: rgb(78, 18, 18);
+}
+
+
+
+.right-icons {
+    position: absolute;
+    vertical-align: middle;
+    right: 30px;
+    top: 35px;
+    font-size: 20px;
+}
+
+.right-icons a{
+    list-style: none;
+    margin: 0px 10px;
+}
+.right-icons a:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+.left-icons{
+    position: absolute;
+    vertical-align: middle;
+    left: 30px;
+    top: 35px;
+    font-size: 20px;
+}
+
+
+.left-icons a{
+    list-style: none;
+    margin: 5px 10px;
+}
+
+.left-icons a:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+.left-icons .language{
+    text-decoration: none;
+    font-family: 'Sigmar One', cursive;
+    color: lavender;
+}
+
+.right-icons .about_us{
+    text-decoration: none;
+    font-family: 'Sigmar One', cursive;
+    color: lavender;
+}
+
+
+.btn-left{
+    transition:all .2s ease;
+}
+
+.btn-left:hover{
+    transform: scale(1.2);
+}
+
+.btn-right{
+    transition:all .2s ease;
+}
+
+.btn-right:hover{
+    transform: scale(1.2);
+}
+
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 219px;
+}
+
+.background .ads{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    width:600px;
+    font-size: 55px;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: #D2CBAD;
+    font-family: 'Sigmar One', cursive;
+    -webkit-text-stroke:2px rgb(255, 255, 255);
+}
+
+.background  .bg1{
+    width: 100%;
+}
+
+.background .logo2{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.ads-section .background{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 210px;
+    background-image : linear-gradient(#000000, #5f5b5b);
+    display: flex;
+}
+
+
+
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+
+.Hero{
+    position: relative;
+    width: 94%;
+    padding: 3%;
+    height: 600px;
+    background-color: #E6DFCF;
+    display: flex;
+}
+
+/*  样式覆盖 */
+
+.left-col .Dave{
+    position:absolute;
+    width: 43%;
+    height: 80%;
+    top: 10%;
+    left: 5%;
+}
+
+.Mid-col .tour{
+    position:absolute;
+    width: 25%;
+    height:39%;
+    top: 10%;
+    left: 49%;
+}
+
+.Hero .video{
+    position: absolute;
+    width: 25%;
+    font-size: 50px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.Mid-col .stuff{
+    position:absolute;
+    width: 25%;
+    height:39%;
+    bottom: 10%;
+    left: 49%;
+}
+
+
+
+.Right-col .new{
+    position:absolute;
+    width: 20%;
+    height: 80%;
+    bottom: 10%;
+    right: 5%;
+}
+
+
+
+.dave{
+    position: absolute;
+    top: 38%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+}
+
+.Hero .dave{
+    position: absolute;
+    width: 40%;
+    font-size: 60px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.video{
+    position: absolute;
+    top: 23%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.Hero .video{
+    position: absolute;
+    width: 25%;
+    font-size: 50px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.meet{
+    position: absolute;
+    bottom: 17%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+}
+
+.Hero .meet{
+    position: absolute;
+    width: 25%;
+    font-size: 50px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.New{
+    position: absolute;
+    top: 38%;
+    left:86%;
+    transform: translate(-50%,-50%);
+}
+
+.Hero .New{
+    position: absolute;
+    width: 15%;
+    font-size: 50px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* .Hero .Dave{
+    width: 790px;
+    height: 520px;
+} */
+
+/* .Dave{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+} */
+
+/* .Hero .dave{
+    position: absolute;
+    left:165px;
+    top: 160px;
+    font-size: 70px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+} */
+
+.Hero .Dave:hover{
+    transform:scale(1.1);
+}
+
+
+.Hero .tour:hover{
+    transform: scale(1.1);
+}
+
+.Mid-col .stuff:hover{
+    transform: scale(1.1);
+}
+
+.Hero .new:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* .Mid-col .stuff{
+    width: 470px;
+    height: 250px;
+} */
+
+/* .stuff{
+    position: absolute;
+    left: 940px;
+    bottom: 40px;
+} */
+
+
+
+/* 
+.Hero .meet{
+    position: absolute;
+    left: 980px;
+    bottom: 80px;
+    font-size: 50px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+} */
+
+/* 
+.Right-col .new{
+    width: 350px;
+    height: 520px;
+}
+
+.Right-col .new{
+    position: absolute;
+    left: 1442px;
+    top: 40px;
+}
+
+.Right-col .new:hover{
+    transform: scale(1.1);
+}
+
+.Hero .New{
+    position: absolute;
+    left: 1465px;
+    top: 160px;
+    font-size: 70px;
+    width: 90px;
+    font-family: 'Limelight', cursive;
+    color: rgb(255, 255, 255);
+} */
+
+
+
+article{
+    position: relative;
+    width: 96%;
+    padding: 2%;
+    height: 700px;
+    background-color: #BFBFBF;
+    display: flex;
+}
+
+
+
+
+
+article .left-news .news{
+    position:absolute;
+    left: 20%;
+    font-size: 35px;
+    -webkit-text-stroke: 1.2px black;
+    font-family: 'Merriweather', serif;
+}
+
+
+article .left-news .NEWS .HOURS{
+    position:absolute;
+    top: 13%;
+    left: 9%;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: #572020;
+    text-decoration:underline;
+}
+
+article .left-news .NEWS .HOURS:hover{
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+
+article .left-news .NEWS .pic1{
+    position: absolute;
+    width: 48%;
+    height: 70%;
+    top: 20%;
+}
+
+
+
+article .right-blog .Blog{
+    position:absolute;
+    left: 70%;
+    font-size: 35px;
+    -webkit-text-stroke: 1.2px black;
+    font-family: 'Merriweather', serif;
+}
+
+
+article .right-blog .blog1{
+    width: 15%;
+    height: 35%;
+}
+
+article .right-blog .blog1{
+    position:absolute;
+    top: 15%;
+    left: 52%;
+}
+
+
+article .right-blog .blog2{
+    width: 15%;
+    height: 35%;
+}
+
+article .right-blog .blog2{
+    position:absolute;
+    bottom: 10%;
+    left: 52%;
+}
+
+
+article .right-blog .article1{
+    width: 28%;
+}
+
+article .right-blog .article2{
+    width: 28%;
+}
+
+.article1 .a1{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: #572020;
+}
+
+
+
+.article1 .a2{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: #572020;
+}
+
+
+article .right-blog .article1{
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+
+
+
+.article1 .content1{
+    color: rgb(66, 45, 41);
+}
+
+article .right-blog .article2{
+    position: absolute;
+    bottom: 15%;
+    left: 67%;
+}
+
+
+.article2 .b1{
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: #572020;
+}
+
+
+
+.article2 .b2{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: #572020;
+}
+
+.article2 .content2{
+    color: rgb(66, 45, 41);
+}
+
+.right-blog a{
+    text-decoration: underline;
+}
+
+.right-blog a:hover{
+    text-shadow: 2px 2px #ffffff;
+}
+
+
+
+.information{
+    position: relative;
+    margin: 0px;
+    padding: 3%;
+    height: 200px;
+    background-image : linear-gradient(#5f5b5b,#000000);
+    display: flex;
+}
+
+.detials .number{
+    position: absolute;
+    font-size: 18px;
+    left: 5%;
+    top: 20%;
+    color:rgb(255, 255, 255); 
+}
+
+.p1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    left: 5%;
+    top:10%
+}
+
+.p2{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    left: 5%;
+    top:35%;
+}
+
+
+.p3{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    left: 5%;
+    top: 45%;
+}
+
+.p4{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    left: 5%;
+    top: 62%;
+}
+
+.detials .number:hover{
+    color:#D1D0D0;
+}
+
+
+
+.p3:hover{
+    color:#D1D0D0 ;
+}
+
+.p4:hover{
+    color:#D1D0D0 ;
+}
+
+.Email .submit:focus{
+    background-color: rgb(149, 144, 144);
+    border-color:rgb(149, 144, 144)
+}
+
+
+.sign_in_part .sign{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Sigmar One', cursive;
+    color: wheat;
+    left: 39%;
+    top: 20%;
+}
+
+.Email .text{
+    position: relative;
+    width: 20rem;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+.Email .submit{
+    position: relative;
+    width: 20rem;
+    line-height: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.Email .text{
+    position:absolute;
+    left: 35%;
+    top: 45%;
+    width: 20%;
+    height: 2%;
+    border: 3px solid rgb(167, 167, 167);
+    border-radius: 7px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color:white;
+    outline:none;
+    padding:1.25rem;
+    background-color: #EAEAEA;
+}
+
+.Email .submit{
+    position:absolute;
+    left: 58%;
+    top: 45%;
+    width: 7%;
+    height: 4.9%;
+    border: 4px solid  #A47551;
+    border-radius: 7px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(46, 4, 4);
+    outline:none;
+    padding:1.4rem 1rem;
+    background-color: #A47551;
+}
+
+
+.Email .text:hover{
+    border-color: rgb(149, 144, 144);
+}
+
+.Email .text:focus{
+    border-color: white;
+}
+
+
+.Email .submit:hover{
+    background-color: tan;
+    border-color:tan ;
+}
+
+.Email .submit:focus{
+    background-color: rgb(149, 144, 144);
+    border-color:rgb(149, 144, 144)
+}
+
+
+
+
+.p1{
+    color: rgb(170, 168, 154);
+    width: 30%;
+}
+
+.p2{
+    color: rgb(170, 168, 154);
+    width: 30%;
+}
+
+.p3{
+    color: rgb(255, 255, 255);
+    width:13%;
+}
+
+.p4{
+    color: rgb(255, 255, 255);
+    width:6%;
+}
+
+.sign_in_part .sign{
+    color: rgb(170, 168, 154);
+}
+
+.copyright{
+    position: absolute;
+    width: 55%;
+    height: 15%;
+    left: 25%;
+    bottom:0%;
+}
+
+
+.other-resourse{
+    position: absolute;
+    vertical-align: middle;
+    right: 30px;
+    top: 20%;
+}
+
+.other-resourse a{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.other-resourse a:hover{
+    border-bottom: 1px solid #ccc;
+}
+.phone,.phone_navbar{
+    display: none;
+}
+.news,.information{
+    display: block;
+}
+
+.phone_Hero,.right-input,.btn_search,.phone_news,.phone_info{
+    display: none;
+}
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    body {
+      width: 100%;
+      background-color: #D2CBAD;
+    }
+    li{
+        list-style: none;
+    }
+    header{
+        width: 100vw;
+        height: 120px;
+    }
+    article .right-blog .Blog,.Hero,.navbar,.news,.information{
+        display: none;
+    }
+    .phone_navbar,.phone_Hero,.phone_info{
+        display: block;
+    }
+    /* NAV */
+    .phone_navbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    .phone_navbar li{
+        width: 33%;
+        text-align: center;
+        background-color: rgb(177, 123, 123);
+    }
+    /* 4 end */
+    /* header-start */
+    .LOGO{
+        width: 100px;
+        top: 10px;
+        left: 10px;
+        transform: translate(0,0);
+    }
+    .LOGO img{
+        width: 100%;
+    }
+    .right-icons{
+        top: 10px;
+        right: 10px;
+    }
+    .right-icons a{
+        margin: 0;
+    }
+    .right-icons img{
+        width: 20px;
+        height: 20px;
+    }
+    .about_us{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .right-input{
+        display: block;
+        width: 190px;
+        height: 30px;
+        position: absolute;
+        bottom: 10px;
+        left: 41%;
+        border-radius: 8px;
+        transform: translateX(-50%);
+
+    }
+    .btn_search{
+        display: block;
+        width: 85px;
+        height: 35px;
+        position: absolute;
+        bottom: 10px;
+        left: 78%;
+        border-radius: 8px;
+        transform: translateX(-50%);
+        background-color: rgb(179, 157, 119);
+    }
+    .btn_search img{
+        width: 100%;
+        height: 100%;
+    }
+    /* header-end */
+    /* ads start */
+    .ads-section .background{
+        height: 180px;
+    }
+    .background .ads{
+        font-size: 28px;
+        transform: translate(-24%,-45%);
+    }
+    .background .logo2{
+        width: 100px;
+        right: 15px;
+        bottom: 15px;
+    }
+    /* ads end */
+    /* list start */
+    .phone_news{
+        display: block;
+    }
+    .phone_news h2{
+        font-size: 24px;
+        text-align: center;
+        color: rgb(78, 18, 18);
+    }
+    .phone_news li{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid #fff;
+    }
+    .new_l{
+        width: 30%;
+        height: 100%;
+        
+    }
+    .new_l img{
+        width: 100%;
+        height: 75%;
+
+    }
+    .new_r{
+        width: 70%;
+        height: 100%;
+
+    }
+    .new_r h3,.new_r p,.new_r span{
+        margin: 0;
+        margin-left: 20px;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .new_r span,.new_r p{
+        color: rgb(49, 49, 49);
+    }
+    /* list end */
+
+    .phone_Hero ul{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 7px;
+    }
+    .phone_Hero ul li{
+        position: relative;
+        list-style: none;
+        width: 50%;
+        height: 110px;
+    }
+    .phone_Hero ul li img{
+        width: 100%;
+        height: 100%;
+    }
+    .phone_Hero ul li p{
+        color: white;
+        position: absolute;
+        top: 38%;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    /* 4 imgs end */
+    .phone{
+        display: block;
+    }
+    article{
+        height: 590px;
+    }
+    /* footer */
+    .foote_main{
+        padding: 20px 0px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(64, 64, 64);
+    }
+    .footer_left,.footer_right{
+        position: relative;
+        width: 48%;
+        height: 100%;
+        padding: 1% 3%;
+        color: #b8b8b8;
+    }
+    .footer_left{
+        width: 40%;
+    }
+    .footer_right{
+        width: 60%;
+    }
+    .footer_left p{
+        font-size: 12px;
+    }
+    .footer_left h4{
+        font-size: 20px;
+    }
+    .footer_img{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .footer_img img{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .footer_right h3{
+        font-size: 18px;
+        margin-top: 145px;
+        color: white;
+    }
+    .phone_info{
+        position: relative;
+    }
+    .phone_info .footer_input{
+        position: absolute;
+        top: 198px;
+        left: 133px;
+    }
+    .phone_info .footer_input input{
+        height: 40px;
+        width: 176px;
+        border-radius: 5px;
+        background: rgb(178, 178, 178);
+    }
+    .phone_info .footer_input button{
+        height: 40px;
+        width: 80px;
+        background: rgb(154, 142, 142);
+        border:none;
+        transform: translateX(-6px);
+    }
+    .copyright {
+        position: absolute;
+        width: 81%;
+        height: 15%;
+        left: 15%;
+        bottom: 0%;
+    }
+    /* hover */
+    .phone_Hero ul li:hover{
+        color: red;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,45 @@
+body {
+    display: block;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li,h1{
+    margin: 0%;
+    padding: 0%;
+} 
+
+
+header{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 190px;
+    background-color: #565453;
+    display: flex;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 1000px;
+    background-color: #F6EDD8;
+    display: flex;
+}
+
+
+.information{
+    position: relative;
+    margin: 0px;
+    padding: 3%;
+    height: 90px;
+    background-color: #565453;
+    display: flex;
+}

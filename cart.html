@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/cart_layout.css">
+    <link rel="stylesheet" href="./style/cart_typography.css">
+</head>
+<body>
+    <header>
+        <div class="LOGO">
+            <img class="logo" src="./USERS/LOGO.png" alt="Logo"/>
+        </div>
+
+        <form class="reaserch" action="">
+            <label for="reaserch"></label>
+                <input class="text" type="text" id="reaserch" name="reaserch" placeholder="reaserch">
+                <button class="btn">reaserch</button>
+            </label>
+           
+        </form>
+
+        <h1>Shopping Cart</h1>
+
+
+  
+            <div class="right-icons">
+                <a href="#">
+                    <img src="./USERS/iconfinder_User_Interface-20_2044268.svg" alt="Login"/>
+                </a>
+                <a href="#"  class="about_us">About Us</a>
+                <a href="#">
+                    <img src="./USERS/collection.svg" alt="collection"/>
+                </a>
+                <a href="#">
+                    <img src="./USERS/iconfinder_ic_shopping_cart_48px_3669231.svg" alt="shopping cart"/>
+                </a>
+                <a href="./Hompage.html">
+                    <a href="./Hompage.html"><img src="./Icon/home.svg" alt=""></a>
+                </a>
+                <a href="#">
+                    <img src="./USERS/iconfinder_menu_2561466.svg" alt="menu"/>
+                </a>
+            </div>
+            </div>    
+            
+            <ul class="navbar">
+                <li><a href="#">VINTAGE |</a></li>
+                <li><a href="#">ELECTRIC |</a></li>
+                <li> <a href="./product_list.html">ACOUTIC |</a></li>
+                <li><a href="#">BASS |</a></li>
+                <li> <a href="#">AMPLIFIERS |</a</li>
+                <li><a href="#">KEYBOARDS |</a></li>
+                <li><a href="#">DRUMS |</a></li>
+                <li> <a href="#">PADLES</a></li>
+            </ul>
+                </a>
+    </header>
+
+    
+          <!-- shoping cart --> 
+            <section class="shopping">
+                    <div class="cart">
+
+                        <!-- product1  --> 
+                        <div class="product1">
+                            <img class="more1" src="./products/more1.png" alt=""/>
+                        <h2>D'ADDARIO ACOUSTIC GUITAR HUMIDIFIER</h2>
+                        <p>Condition:New</p>
+                        <label class="numbers" for="quality">Quality</label>
+                        <select class="quality" id="quality1">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <div id="pie" style="display: none;">6.90</div>
+                        <p class="money" id="money">$6.90</p>
+
+                        <img class="delect" src="./Icon/delect.png" alt=""/>
+
+
+                          <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+
+                    <!-- product2  --> 
+                    <div class="product2">
+                        <img class="more1" src="./products/product1-detail.png" alt=""/>
+                    <h2>HERITAGE H-150 ’17</h2>
+                    <p>Condition:Used</p>
+                    <label class="numbers" for="quality">Quality</label>
+                    <select class="quality" id="quality2">
+                            <option value="1">1</option>
+                    </select>
+                    <div id="pie1" style="display: none;">1595</div>
+                   
+                    <p class="money" id="money2">$1,595.00</p>
+
+                    <img class="delect" src="./Icon/delect.png" alt=""/>
+
+
+                      <label class="container">
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+
+                            <img class="line" src="./Icon/line.png" alt=""/>
+                       
+                    </div>
+
+
+                    <!-- caculate the  subtotal -->    
+                  <div class="total">
+                      <table>
+                          <tr style="height: 120px;">
+                              <td style="font-size:20px; width: 190px;">
+                                    Subtotal: 
+                              </td>
+                             
+                                <td>
+                                        $<span id="pers1">840050.0</span>
+                                    </td>
+                          </tr>
+                          <tr style="height: 120px;">
+                                <td style="font-size:20px; width: 190px;">
+                                        Shipping  Fee:  
+                                </td>
+                                <td>
+                                        Enter your address to view shipping options. 
+                                        <p style="color: red;width: 150px; border-bottom: 1px solid red;">Calculate  shipping</p>
+                                    </td>
+                            </tr>
+                            <tr style="height: 120px;">
+                                    <td style="font-size:20px; width: 190px;">
+                                            Total:
+                                    </td>
+                                    <td>
+                                            $<span id="pers2">840050.0</span>
+                                        </td>
+                                </tr>
+                            
+                      </table>
+                      <!-- <ul>
+                          <li>Subtotal:</li>
+                          <li>Shipping  Fee:</li>
+                          <li class="Total">Total:</li>
+                      </ul>
+                      
+                      <p>Enter your address to view shipping options.</p>
+                      <p>Calculate shipping</p> -->
+                      
+                  </div>
+
+                <div class="info">
+                    <p class="Q">Question?</p>
+                    <img class="call" src="./Icon/call.png" alt=""/> 
+                    <p class="NUM">: 608-780-7789</p>
+                    <img class="email" src="./Icon/email.png" alt=""/>
+                    <p class="INFO">: INFO@DAVESGUITAR.COM</p>
+                </div>
+
+                <div class="check">   
+                    <a href="./shipping.html"><button class="Proceed_to_Checkout">
+                        Proceed to Checkout
+                    </button>
+                </a>
+                </div> 
+
+                <p class="or">--- or ---</p>
+
+                <img class="paypal" src="./Icon/Paypal.png" alt=""/>
+
+            </section>
+
+<!-- desktop -->
+<footer class="information">
+    <div class="detials">
+        <p class="p1">GIVE US A CALL</p>
+        <p class="number">608-785-7704</p>
+    </div>
+
+        <div>
+            <p class="p2">STORE HOURS & LOCATION</p>
+            <a href="#">
+                <p class="p3">10:00 AM - 6:00 PM MON-FRI  10:00 AM - 5:00 PM SAT</p>
+                <p class="p4">CLOSED SUN  La Crosse, WI</p>
+
+            </a>
+        </div>
+
+        <div class="sign_in_part">
+            <p class="sign">Want to Trade?</p>
+        </div>  
+                    <img class="copyright" src="./Icon/copyright.svg" alt="copyright"/>
+
+                    <div class="other-resourse">
+                        <a href="#">
+                            <img src="./Icon/instagram.svg" alt="instagram"/>
+                        </a>
+                        <a href="#">
+                            <img src="./Icon/facebook.svg" alt="facebook"/>
+                        </a>
+                        <a href="#">
+                            <img src="./Icon/youtube.svg" alt="youtube"/>
+                        </a>
+
+                     
+                    </div> 
+</footer>
+
+<script src="./Javascript/index.js"></script>
+
+
+</body>
+</html>
